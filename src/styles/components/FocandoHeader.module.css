@@ -1,0 +1,51 @@
+.header {
+    height: 3rem;
+    
+    background: var(--blue);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search > img {
+    border-radius: 25%;
+    margin: 0 0.5em;
+}
+
+.search > input {
+    width: 24em;
+    height: 1.75em;
+    
+    color: var(--text);
+    resize: none;
+
+    border-radius: 10px;
+    padding-left: 0.5em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    padding: 1em;
+}
+
+.nav > a {
+    color: var(--black);
+
+    font-size: 0.9em;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav > a > img {
+    margin: 0.5em;
+    border-radius: 50%;
+}
